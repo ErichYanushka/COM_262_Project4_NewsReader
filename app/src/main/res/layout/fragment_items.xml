@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/titleTextView"
@@ -12,10 +10,11 @@
         android:padding="7dp"
         android:text="@string/items_title"
         android:textSize="22sp" />
-    
+
     <ListView
         android:id="@+id/itemsListView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"/>
 
-</LinearLayout><!-- From: file:/C:/Users/80820/Desktop/COM262_Project4_NewsReader/app/src/main/res/layout/activity_items.xml -->
+</RelativeLayout>
